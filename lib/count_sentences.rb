@@ -27,7 +27,9 @@ class String
   end
 
   def count_sentences
-
-
+    if self>0
+      self.split(/[.?!]+/].count_sentences
+    else
+      0
   end
 end

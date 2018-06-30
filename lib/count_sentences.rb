@@ -11,7 +11,7 @@ class String
   end
 
   def question?
-    if self.ends_with?("?")
+    if self.end_with?("?")
       true
     else
       false
@@ -19,7 +19,7 @@ class String
   end
 
   def exclamation?
-    if self.ends_with?("!")
+    if self.end_with?("!")
       true
     else
       false
@@ -27,7 +27,7 @@ class String
   end
 
   def count_sentences
-    
+
 
   end
 end

@@ -31,5 +31,6 @@ class String
       self.split(/[.?!]+/].count_sentences
     else
       0
+    end
   end
 end
